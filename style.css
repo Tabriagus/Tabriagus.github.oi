@@ -1,0 +1,47 @@
+body{
+background: #22C1C3;
+background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgb(240, 198, 105) 100%);
+}
+
+
+.navbar-nav{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    border-radius: 50px;
+    padding: 12px 20px;
+}
+
+#hero .bg-hero{
+    background-image: url(assets/img-banner1.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-radius: 50px;
+}
+
+#produk .card{
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+#about .bg-about{
+    background-color: #d2ffea;
+    height: 300px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;padding: 30px;
+}
+
+#cta .bg-cta {
+    background-image: url(assets/img-cta.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-radius: 50px;
+    text-align: center;
+}
